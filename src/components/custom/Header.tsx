@@ -1,8 +1,15 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
-        <header className="fixed top-0 h-14 w-full border-b-2 border-gray-800 bg-gray-950/70 px-4 backdrop-blur-lg">
-            <div className="font-caveat flex h-full w-full items-center bg-linear-to-r from-teal-400 to-indigo-300 bg-clip-text text-3xl text-transparent">
-                Shivam Kumar
+        <header className="fixed top-0 h-14 w-full">
+            <div className="mx-auto h-full w-full max-w-3xl border-b-2 border-gray-800 bg-gray-950/60 backdrop-blur-lg md:border-x-2">
+                <Link
+                    href={"/"}
+                    className="font-caveat flex h-full w-full items-center bg-linear-to-r from-amber-500 to-amber-50 bg-clip-text px-4 text-3xl font-medium text-transparent"
+                >
+                    Shivam Kumar
+                </Link>
             </div>
         </header>
     );

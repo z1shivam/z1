@@ -5,9 +5,11 @@ export default function MainLayout({
     children,
 }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <main className="mx-auto max-w-3xl border-gray-800 pt-14 md:border-x-2">
+        <main className="">
             <Header />
-            {children}
+            <main className="mx-auto max-w-3xl border-gray-800 pt-14 md:border-x-2">
+                {children}
+            </main>
             <Footer />
         </main>
     );

@@ -9,6 +9,7 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
     --font-caveat: var(--font-caveat), ui-sans-serif;
+    --font-heading: var(--font-pp), ui-sans-serif;
 }
 
 @theme inline {

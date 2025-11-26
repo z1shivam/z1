@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 
 import { type Metadata } from "next";
-import { Caveat, Inter } from "next/font/google";
+import { Caveat, Inter, Playpen_Sans } from "next/font/google";
 
 export const metadata: Metadata = {
     title: "Shivam - Software Developer",
@@ -21,12 +21,20 @@ const caveat = Caveat({
     variable: "--font-caveat",
 });
 
+const pp = Playpen_Sans({
+    subsets: ["latin"],
+    variable: "--font-pp",
+});
+
 export default function RootLayout({
     children,
 }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" className={`${inter.variable} ${caveat.variable}`}>
-            <body className="bg-gray-950 text-white">{children}</body>
+        <html
+            lang="en"
+            className={`${inter.variable} ${caveat.variable} ${pp.variable}`}
+        >
+            <body className="bg-gray-950 text-[#fffff0]">{children}</body>
         </html>
     );
 }

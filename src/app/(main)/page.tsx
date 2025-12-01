@@ -1,4 +1,3 @@
-import GithubGraph from "@/components/custom/GithubGraph";
 import HomeBlogsList from "@/components/custom/HomeBlogsList";
 import Intro from "@/components/custom/Intro";
 

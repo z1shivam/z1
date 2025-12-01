@@ -52,7 +52,7 @@ export default function HomeBlogsList() {
                     <Link
                         key={post.slug}
                         href={`/blogs/${post.slug}`}
-                        className="group flex gap-3 rounded-md border border-transparent p-1 hover:border-gray-300 hover:bg-slate-100/50 sm:flex-col"
+                        className="group flex gap-3 rounded-md border border-transparent p-1 hover:border-gray-700 hover:bg-slate-900/50 sm:flex-col"
                     >
                         <div className="aspect-video h-full w-32 shrink-0 overflow-hidden rounded-sm sm:h-auto sm:w-auto">
                             <Image
@@ -78,7 +78,7 @@ export default function HomeBlogsList() {
                     <Link
                         key={post.slug}
                         href={`/blogs/${post.slug}`}
-                        className="group hidden gap-3 rounded-md border border-transparent p-1 hover:border-gray-300 hover:bg-slate-100/50 sm:flex-col md:flex"
+                        className="group hidden gap-3 rounded-md border border-transparent p-1 hover:border-gray-700 hover:bg-slate-900/50 sm:flex-col md:flex"
                     >
                         <div className="aspect-video h-full w-32 shrink-0 overflow-hidden rounded-sm sm:h-auto sm:w-auto">
                             <Image

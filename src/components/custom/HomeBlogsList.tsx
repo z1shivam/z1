@@ -43,8 +43,8 @@ const posts = [
 
 export default function HomeBlogsList() {
     return (
-        <section className="px-3 py-3">
-            <h2 className="font-caveat px-1 pb-1 text-3xl font-medium">
+        <section className="px-3 py-5">
+            <h2 className="font-caveat px-1 pb-1 text-3xl">
                 I write sometimes
             </h2>
             <div className="home-blogs grid grid-cols-1 gap-3 pt-1 pb-3 sm:grid-cols-2 md:grid-cols-3">

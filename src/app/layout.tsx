@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     description:
         "Shivam is software developer with expertise in Python, JavaScript and Golang. He enjoys building software and tools, partially because he likes to build things and partially because he does not like the existing solution.",
     icons: [{ rel: "icon", url: "/favicon.ico" }],
+    other: { "theme-color": "#030712" },
 };
 
 const inter = Inter({

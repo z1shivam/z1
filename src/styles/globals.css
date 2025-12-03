@@ -127,3 +127,37 @@
         @apply bg-background text-foreground;
     }
 }
+
+@keyframes blurSlideUp {
+    0% {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(10px);
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes blurSlideIn {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
+.animate-blurSlideUp {
+    animation: blurSlideUp 1s ease-in-out forwards;
+}
+
+.animate-blurSlideIn {
+    animation: blurSlideIn 1s ease-in-out forwards;
+}

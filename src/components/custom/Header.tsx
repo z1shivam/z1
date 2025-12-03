@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="fixed top-0 h-14 w-full">
+        <header className="fixed top-0 z-50 h-14 w-full">
             <div className="mx-auto h-full w-full max-w-3xl border-b-2 border-gray-800 bg-gray-950/60 backdrop-blur-lg md:border-x-2">
                 <Link
                     href={"/"}

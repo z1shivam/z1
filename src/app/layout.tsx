@@ -1,14 +1,21 @@
 import "@/styles/globals.css";
 
-import { type Metadata } from "next";
+import { type Metadata, type Viewport } from "next";
 import { Caveat, Inter, Playpen_Sans } from "next/font/google";
 
+export const viewport: Viewport = {
+    themeColor: "#030712",
+    colorScheme: "dark",
+};
+
 export const metadata: Metadata = {
-    title: "Shivam - Software Developer",
+    title: {
+        template: "%s | Shivam Kumar",
+        default: "Shivam Kumar",
+    },
     description:
         "Shivam is software developer with expertise in Python, JavaScript and Golang. He enjoys building software and tools, partially because he likes to build things and partially because he does not like the existing solution.",
     icons: [{ rel: "icon", url: "/favicon.ico" }],
-    other: { "theme-color": "#030712" },
 };
 
 const inter = Inter({

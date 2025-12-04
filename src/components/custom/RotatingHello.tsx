@@ -22,15 +22,6 @@ const texts = [
     "Merhaba", // Turkish
 
     "Xin chào", // Vietnamese
-    "Halo", // Indonesian
-    "Salam", // Persian
-    "Sveiki", // Latvian
-    "Hej", // Swedish
-
-    "Habari", // Swahili
-    "Kumusta", // Filipino
-    "Shalom", // Hebrew
-    "Jambo", // East African
 ];
 
 export default function RotatingHello() {
